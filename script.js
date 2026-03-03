@@ -10,7 +10,6 @@ function Car(make, model) {
 }
 
 function SportsCar(make, model, topSpeed) {
-	class SportsCar extends car{
     constructor(make,model,topSpeed){
         super()
         this.make=make
@@ -22,7 +21,7 @@ function SportsCar(make, model, topSpeed) {
         return this.topSpeed
     }
 }
-}
+
 
 // Do not change the code below
 window.Car = Car;
