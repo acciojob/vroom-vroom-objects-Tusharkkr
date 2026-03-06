@@ -17,7 +17,6 @@ class SportsCar extends car{
         this.topSpeed=topSpeed
     }
     getTopSpeed(){
-        super.getMakeModel()
         return this.topSpeed
     }
 }
