@@ -1,4 +1,4 @@
-class car{
+class Car{
     constructor(make,model){
         this.make=make
         this.model=model
@@ -9,7 +9,7 @@ class car{
 
 }
 
-class SportsCar extends car{
+class SportsCar extends Car{
     constructor(make,model,topSpeed){
         super(make,model)
         this.topSpeed=topSpeed
